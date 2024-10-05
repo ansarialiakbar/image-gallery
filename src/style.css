@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* allow images to wrap to the next line */
+    gap: 20px; /* space between images */
+    justify-content: center;
+  }
+  
+  .thumbnail {
+    flex: 0 1 calc(20% - 20px); /* each image takes 20% width minus the gap */
+    margin-bottom: 20px; /* add space between rows */
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
